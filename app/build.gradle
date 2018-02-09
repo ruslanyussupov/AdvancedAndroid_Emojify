@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "com.example.android.emojify"
         minSdkVersion 15
@@ -26,6 +26,8 @@ dependencies {
     })
     compile 'com.android.support:design:25.2.0'
     compile 'com.android.support:appcompat-v7:25.2.0'
-    // TODO (1): Add Google Mobile Vision Library dependency
+    // COMPLETED (1): Add Google Mobile Vision Library dependency
+    compile 'com.google.android.gms:play-services-vision:11.8.0'
+
     testCompile 'junit:junit:4.12'
 }
